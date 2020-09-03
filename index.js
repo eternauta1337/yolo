@@ -7,7 +7,7 @@ const { version } = require('../package.json');
 
 // Define available commands.
 const commandPaths = [
-  './commands/calldata.js',
+  './commands/checktx.js',
 ];
 // Require all commands.
 const commands = commandPaths.map(commandPath => {

@@ -1,17 +1,17 @@
 {
   "name": "yolo",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple cli tool for farmers trying to make an honest living.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "bin": {
+    "yolo": "src/index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ajsantander/yolo.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "ajsantander",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ajsantander/yolo/issues"
