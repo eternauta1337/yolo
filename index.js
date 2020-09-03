@@ -39,7 +39,7 @@ function displayHelp() {
   program.help(() => {
 
     // Title.
-    const str = figlet.textSync(`yolo`, {font: 'Slant Relief'});
+    const str = figlet.textSync(`yolo`);
     console.log(chalk`{redBright ${str}}`);
 
     // Version.
