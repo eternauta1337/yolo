@@ -10,7 +10,7 @@ A simple cli tool for farmers trying to make an honest living.
 
 ### Installation:
 ```
-npm install --global yolo
+npm install --global yolo-farm
 ```
 
 ### Usage:

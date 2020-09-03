@@ -1,5 +1,5 @@
 {
-  "name": "yolo",
+  "name": "yolo-farm",
   "version": "1.0.0",
   "description": "A simple cli tool for farmers trying to make an honest living.",
   "main": "index.js",
