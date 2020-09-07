@@ -3,11 +3,12 @@
 const program = require('commander');
 const chalk = require('chalk');
 const figlet = require('figlet');
-const { version } = require('../package.json');
+const { version } = require('./package.json');
 
 // Define available commands.
 const commandPaths = [
   './commands/checktx.js',
+  './commands/unit.js',
 ];
 // Require all commands.
 const commands = commandPaths.map(commandPath => {
