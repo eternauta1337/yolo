@@ -7,8 +7,9 @@ const { version } = require('./package.json');
 
 // Define available commands.
 const commandPaths = [
-  './commands/checktx.js',
+  './commands/check.js',
   './commands/unit.js',
+  './commands/hex.js',
 ];
 // Require all commands.
 const commands = commandPaths.map(commandPath => {
