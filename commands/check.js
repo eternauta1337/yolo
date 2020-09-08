@@ -2,7 +2,7 @@ const etherscan = require('../utils/etherscan');
 const chalk = require('chalk');
 const ethers = require('ethers')
 
-const signature = 'calldata <contractAddress> <calldata>';
+const signature = 'check <contractAddress> <calldata>';
 const description = 'Decodes calldata in calls to contracts';
 const help = chalk`
 The command takes an address of a deployed contract and the calldata used for the call. It retrieves the contract's ABI from Etherscan, decodes de calldata against it, and prints out information about the call that can be understood in human terms.
