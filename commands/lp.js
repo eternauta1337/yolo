@@ -23,8 +23,6 @@ module.exports = {
       .description(description)
       .on('--help', () => console.log(help))
       .action(async (poolAddress, lpAmount) => {
-        console.log(poolAddress, lpAmount);
-
         lpAmount = parseFloat(lpAmount);
 
         const provider = new ethers.providers.InfuraProvider('homestead', '1dde3e7198354724b443fffdd7770cbc');
