@@ -32,12 +32,12 @@ module.exports = {
         const contract = new ethers.Contract(poolAddress, UniswapPair, provider);
 
         const totalSupply = parseFloat(ethers.utils.formatEther(await contract.totalSupply()));
-        console.log(totalSupply);
+        console.log('Pool total supply:', totalSupply);
 
         const reserves = await contract.getReserves();
 
         const share = lpAmount / totalSupply;
-        console.log(share);
+        console.log('Pool share:', share);
 
         const res0 = parseFloat(ethers.utils.formatEther(reserves[0]));
         const res1 = parseFloat(ethers.utils.formatEther(reserves[1]));
@@ -45,7 +45,8 @@ module.exports = {
         const a = share * res0;
         const b = share * res1;
 
-        console.log(`${a} | ${b}`);
+        console.log('Token 0:', a);
+        console.log('Token 1:', b);
       });
   }
 };
