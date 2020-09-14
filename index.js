@@ -10,6 +10,7 @@ const commandPaths = [
   './commands/check.js',
   './commands/unit.js',
   './commands/hex.js',
+  './commands/lp.js',
 ];
 // Require all commands.
 const commands = commandPaths.map(commandPath => {

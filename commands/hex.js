@@ -8,7 +8,7 @@ Converts a hex number to its positive integer base 10 representation.
 
 {red Eg:}
 
-{blue > pocketh hex2uint 0x7a120}
+{blue > yolo hex2uint 0x7a120}
 500000
 `;
 
