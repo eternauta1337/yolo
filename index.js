@@ -9,8 +9,8 @@ const { version } = require('./package.json');
 const commandPaths = [
   './commands/check.js',
   './commands/unit.js',
-  './commands/ether2wei.js',
-  './commands/wei2ether.js',
+  './commands/eth2wei.js',
+  './commands/wei2eth.js',
   './commands/hex2uint.js',
   './commands/lp.js',
 ];

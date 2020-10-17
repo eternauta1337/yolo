@@ -1,7 +1,7 @@
 const chalk = require('chalk');
 const ethers = require('ethers');
 
-const signature = 'wei2ether [value]';
+const signature = 'wei2eth [value]';
 const description = 'Converts wei units to ether';
 const help = chalk`
 ${description}
