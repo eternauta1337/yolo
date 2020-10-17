@@ -9,9 +9,12 @@ const { version } = require('./package.json');
 const commandPaths = [
   './commands/check.js',
   './commands/unit.js',
-  './commands/hex.js',
+  './commands/ether2wei.js',
+  './commands/wei2ether.js',
+  './commands/hex2uint.js',
   './commands/lp.js',
 ];
+
 // Require all commands.
 const commands = commandPaths.map(commandPath => {
   return require(commandPath);

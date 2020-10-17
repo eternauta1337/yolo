@@ -1,7 +1,7 @@
 const BN = require('bn.js');
 const chalk = require('chalk');
 
-const signature = 'hex <hexString>';
+const signature = 'hex2uint <hexString>';
 const description = 'Converts hex to uint.';
 const help = chalk`
 Converts a hex number to its positive integer base 10 representation.

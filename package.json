@@ -4,7 +4,7 @@
   "description": "A simple cli tool for farmers trying to make an honest living.",
   "main": "index.js",
   "bin": {
-    "yolo": "src/index.js"
+    "yolo": "index.js"
   },
   "repository": {
     "type": "git",
